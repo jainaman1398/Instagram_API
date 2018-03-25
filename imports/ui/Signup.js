@@ -40,10 +40,10 @@ export default class Signup extends Component{
         return(
             <div>
                 <br/>
-                <label>Name</label>
+                <label>UserName</label>
                 <input value={this.state.email} type="text" onChange={this.onChangeEmail} />
                 <br/>
-                <label>Password</label>
+                <label >PassWord</label>
                 <input value={this.state.password} type="password" onChange={this.onChangePassword} />
                <br/>
                 <button  onClick={this.submitForm}>Submit</button>

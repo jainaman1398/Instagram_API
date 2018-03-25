@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import ReactDOM from "react-dom";
+
 import Fblogin from "../../ui/fblogin"
 import Signup from "../../ui/Signup";
 
@@ -39,7 +39,6 @@ export default class App extends Component{
 
         return (
             <div>
-                <Signup/>
                 <br/>
                 <Fblogin />
             </div>
@@ -49,6 +48,3 @@ export default class App extends Component{
 
 
 
-Meteor.startup(()=>{
-    ReactDOM.render(<App />,document.querySelector('.render-target'));
-})
